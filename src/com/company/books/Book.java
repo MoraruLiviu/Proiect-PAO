@@ -5,12 +5,12 @@ import com.company.users.Author;
 import com.company.users.Publisher;
 
 public class Book {
-    protected static int idCounter = 0;
-    protected final int id;
-    protected String title = "TITLE";
-    protected Publisher publisher;
-    protected Author author;
-    protected String genre = "GENRE";
+    private static int idCounter = 0;
+    private final int id;
+    private String title = "TITLE";
+    private Publisher publisher;
+    private Author author;
+    private String genre = "GENRE";
 
     public Book(){
         idCounter++;

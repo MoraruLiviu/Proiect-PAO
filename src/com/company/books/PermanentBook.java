@@ -18,7 +18,7 @@ public class PermanentBook extends Book{
 
     public PermanentBook(String title, Publisher publisher, Author author, String genre, Date publishingDate){
         super(title,publisher,author,genre);
-        this.publishingDate=publishingDate;
+        this.publishingDate = publishingDate;
     }
 
     public Date getPublishingDate(){

@@ -7,8 +7,6 @@ import com.company.users.Publisher;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Main {
@@ -33,7 +31,7 @@ public class Main {
         limitedBooks.addBook(lb3);
 
         List<LimitedBook> sortedLimitedBooks;
-        sortedLimitedBooks = limitedBooks.SortByDiscYear(limitedBooks.getBooks());
+        sortedLimitedBooks = limitedBooks.sortByDiscYear(limitedBooks.getBooks());
         LimitedBookService.printAllBooks(sortedLimitedBooks);
 
 

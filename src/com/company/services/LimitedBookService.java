@@ -32,7 +32,7 @@ public class LimitedBookService {
         return this.limitedBooks.size();
     }
 
-    public List<LimitedBook> SortByDiscYear(List<LimitedBook> books){
+    public List<LimitedBook> sortByDiscYear(List<LimitedBook> books){
         books.sort(new LimitedBookDateComparator());
         return books;
     }
