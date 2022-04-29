@@ -39,4 +39,15 @@ public class LimitedBook extends Book{
         this.discontinueDate = discontinueDate;
     }
 
+    public String toCSV(){
+        return this.getBookId() +
+                "," + this.getTitle() +
+                "," + this.getPublisher().getUserId() +
+                "," + this.getAuthor().getUserId() +
+                "," + this.getGenre() +
+                "," + releaseDate +
+                "," + discontinueDate +
+                "\n";
+    }
+
 }

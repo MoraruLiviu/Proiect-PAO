@@ -34,4 +34,11 @@ public class Author  extends User{
         this.country=country;
     }
 
+    public String toCSV(){
+        return this.getUserId() +
+                "," + age +
+                "," + country +
+                "\n";
+    }
+
 }

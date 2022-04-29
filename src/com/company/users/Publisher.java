@@ -23,4 +23,10 @@ public class Publisher  extends User{
     public void setLocation(String location){
         this.location=location;
     }
+
+    public String toCSV(){
+        return this.getUserId() +
+                "," + location +
+                "\n";
+    }
 }

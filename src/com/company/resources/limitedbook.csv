@@ -1,0 +1,5 @@
+sep=,
+bookId,title,publisher,author,genre,releaseDate,discontinueDate
+1,Spyfull adventure,4,2,detective,Wed Jul 10 00:00:00 EEST 2019,Fri Jul 10 00:00:00 EEST 2020
+2,Hogging riders,5,3,Fantasy,Sun Dec 23 00:00:00 EET 2018,Tue Nov 12 00:00:00 EET 2019
+3,Title,6,1,Meta,Thu Aug 06 00:00:00 EEST 2020,Fri Apr 02 00:00:00 EEST 2021

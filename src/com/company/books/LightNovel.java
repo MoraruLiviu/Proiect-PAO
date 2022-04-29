@@ -26,4 +26,14 @@ public class LightNovel extends Book{
     public void setPages(int pages){
         this.pages = pages;
     }
+
+    public String toCSV(){
+        return this.getBookId() +
+                "," + this.getTitle() +
+                "," + this.getPublisher().getUserId() +
+                "," + this.getAuthor().getUserId() +
+                "," + this.getGenre() +
+                "," + pages +
+                "\n";
+    }
 }
